@@ -1,3 +1,4 @@
+// program of binery searching
 #include<stdio.h>
 
 
