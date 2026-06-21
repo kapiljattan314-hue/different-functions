@@ -3,7 +3,7 @@
 
 int main() {
     int i, j, n;
-    char name[] = "NISHA"; // The name to be displayed
+    char name[] = "NIK"; // The name to be displayed
     int len = strlen(name);
 
     printf("Enter the size of the heart (odd number, e.g., 9 or 11): ");
@@ -22,7 +22,7 @@ int main() {
         }
         // First peak
         for (j = 1; j <= i; j++) {
-            printf(" @");
+            printf("*");
         }
         // Spaces between peaks
         for (j = 1; j <= n - i; j++) {
@@ -30,7 +30,7 @@ int main() {
         }
         // Second peak
         for (j = 1; j <= i; j++) {
-            printf(" @");
+            printf("*");
         }
         printf("\n");
     }
@@ -45,17 +45,17 @@ int main() {
         if (i == n) {
             // Stars before the name
             for (j = 1; j <= (n * 2 - 1 - len) / 2; j++) {
-                printf(" @");
+                printf("*");
             }
             printf("%s", name); // Print the name
             // Stars after the name
             for (j = 1; j <= (n * 2 - 1 - len) / 2; j++) {
-                printf(" @");
+                printf("*");
             }
         } else {
             // Stars for other rows of the inverted triangle
             for (j = 1; j <= (i * 2) - 1; j++) {
-                printf(" @");
+                printf("*");
             }
         }
         printf("\n");
