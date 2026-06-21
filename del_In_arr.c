@@ -19,4 +19,5 @@ int deleteAtEnd(int a[],int n){
         return n-1;
     }
 }
-int 
+
+    
