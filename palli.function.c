@@ -1,3 +1,5 @@
+// use of pallindrome function
+
 #include <stdio.h>
 
 #define N 5
