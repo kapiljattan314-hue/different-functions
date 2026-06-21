@@ -1,3 +1,4 @@
+// to find fibbonachhi series.
 #include<stdio.h>
 int fibbonacci(int n);
 int main(){
