@@ -1,3 +1,4 @@
+//conversion of decimal numbers to their binnary numbers
 #include<stdio.h>
 int deciToBin(int num){
     int ans=0;int pow=1;
